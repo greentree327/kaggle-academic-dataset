@@ -1,0 +1,9 @@
+pandas
+requests
+scikit-learn
+scikit-optimize
+seaborn
+optuna
+xgboost
+lightgbm
+plotly
