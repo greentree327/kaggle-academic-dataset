@@ -1,22 +1,25 @@
 # kaggle-academic-dataset
-Classification with an Academic Success Dataset Playground Series - Season 4, Episode 6
+Classification with an Academic Success Dataset - Playground Series, Season 4, Episode 6
+
+**Link:** [Kaggle Competition](https://www.kaggle.com/competitions/playground-series-s4e6)
+
 ### Summary of Findings
 
 1. **Model Performance**:
-   - XGBoost generally outperforms other models in this classification task.
+   - XGBoost consistently outperforms other models in this classification task.
 
 2. **Prediction and Accuracy**:
-   - Using `model.predict_proba` followed by `normalize_predictions` and then calculating the `accuracy_score` results in higher accuracy compared to using `model.predict` directly.
+   - Using `model.predict_proba` followed by `normalize_predictions` and then calculating `accuracy_score` provides higher accuracy compared to using `model.predict` directly.
 
 ---
 
-### 2. Dataset Overview
+### Dataset Overview
 
-The dataset consists of features and a target variable which will be used to train and evaluate various models.
+The dataset includes features and a target variable, used to train and evaluate various machine learning models.
 
-### 3. Data Inspection and Preprocessing
+### Data Inspection and Preprocessing
 
-1. **Data Inspection and Preprocessing**:
+1. **Data Inspection**:
    - Checked for missing values in the training dataset (`df`).
    - Generated a correlation matrix using Seaborn's heatmap for the test dataset (`df_test`), excluding the 'id' column.
    - Analyzed the distribution of the target variable by checking the unique categories and the number of samples per category.
@@ -25,12 +28,12 @@ The dataset consists of features and a target variable which will be used to tra
 2. **Feature and Target Separation**:
    - Separated features and target variables for both training (`x_train`, `y_train`) and testing datasets (`x_test`).
 
-### 4. Model Training and Evaluation
+### Model Training and Evaluation
 
 1. **Cross-Validation**:
    - Implemented K-Fold and Stratified K-Fold cross-validation to ensure proper training and testing splits.
    - Developed a `get_score` function for model evaluation.
-   - Illustrated the difference between regular K-Fold and Stratified K-Fold, and the effect of shuffling data in Stratified K-Fold.
+   - Demonstrated the difference between regular K-Fold and Stratified K-Fold, and the effect of shuffling data in Stratified K-Fold.
 
 2. **Model Evaluation Metrics**:
    - Explained log-loss calculation and its importance.
@@ -49,6 +52,6 @@ The dataset consists of features and a target variable which will be used to tra
 4. **Using Pickle for Saving Checkpoints**:
    - Saved and loaded the best hyperparameters obtained from Grid Search, Random Search, and Bayesian optimization using `pickle`.
 
-### 5. Results
+### Results
 
-The results section compares the performance of different models and identifies XGBoost as the best-performing model. It also demonstrates that using `model.predict_proba` followed by `normalize_predictions` and calculating `accuracy_score` yields higher accuracy compared to using `model.predict` directly.
+The results section compares the performance of different models, identifying XGBoost as the best-performing model. It also demonstrates that using `model.predict_proba` followed by `normalize_predictions` and calculating `accuracy_score` yields higher accuracy compared to using `model.predict` directly.
