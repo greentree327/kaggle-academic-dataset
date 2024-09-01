@@ -1,4 +1,12 @@
+# Project Title
+
+...
+
+## Achievement
+
 ![I achieved Top 1% in this Kaggle competition, ranked 24th out of 2684](https://github.com/user-attachments/assets/93cd552f-e8da-46fe-b1e4-24bdba65a795)
+
+...
 
 # kaggle-academic-dataset
 Classification with an Academic Success Dataset - Playground Series, Season 4, Episode 6
