@@ -1,15 +1,13 @@
 # kaggle-academic-dataset
 Classification with an Academic Success Dataset - Playground Series, Season 4, Episode 6
-...
 
 ## Achievement
 
+**Description:** My notebook ranked 24th out of 2684 in the competition
+
 <img src="https://github.com/user-attachments/assets/93cd552f-e8da-46fe-b1e4-24bdba65a795" alt="I achieved Top 1% in this Kaggle competition, ranked 24th out of 2684" width="45%" />
 
-**Description:** I achieved Top 1% in this Kaggle competition, ranked 24th out of 2684
-
 **Link:** [Kaggle Competition](https://www.kaggle.com/competitions/playground-series-s4e6)
-
 
 ### Summary of Findings
 
